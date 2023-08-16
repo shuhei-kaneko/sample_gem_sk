@@ -5,7 +5,7 @@ RSpec.describe SampleGemSk do
     expect(SampleGemSk::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "greet test" do
+    expect(SampleGemSk.hello).to eq('Hello, World!')
   end
 end
