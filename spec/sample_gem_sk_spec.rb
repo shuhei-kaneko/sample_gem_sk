@@ -12,4 +12,8 @@ RSpec.describe SampleGemSk do
   it "goodnight test" do
     expect(SampleGemSk.goodnight).to eq('Goodnight, World!')
   end
+
+  it 'good evening test' do
+    expect(SampleGemSk.goodevening).to eq('Good evening, World!')
+  end
 end
