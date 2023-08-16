@@ -8,4 +8,8 @@ RSpec.describe SampleGemSk do
   it "greet test" do
     expect(SampleGemSk.hello).to eq('Hello, World!')
   end
+
+  it "goodnight test" do
+    expect(SampleGemSk.goodnight).to eq('Goodnight, World!')
+  end
 end
