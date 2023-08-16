@@ -12,4 +12,8 @@ module SampleGemSk
   def self.goodnight
     'Goodnight, World!'
   end
+
+  def self.goodevening
+    'Good evening, World!'
+  end
 end
