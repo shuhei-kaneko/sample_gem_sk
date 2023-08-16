@@ -8,4 +8,8 @@ module SampleGemSk
   def self.hello
     'Hello, World!'
   end
+
+  def self.goodnight
+    'Goodnight, World!'
+  end
 end
